@@ -13,3 +13,9 @@ Install other dependencies using pip3 <br>
 python3 pdf_table_extractor.py <PDF_FILE> <br>
 OR <br>
 ./pdf_table_extractor.py <PDF_FILE> <br>
+
+
+To remove password from pdf :
+import pikepdf
+pdf = pikepdf.open('my.pdf',password='pass')
+pdf.save('new.pdf')

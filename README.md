@@ -15,7 +15,7 @@ OR <br>
 ./pdf_table_extractor.py <PDF_FILE> <br>
 
 
-To remove password from pdf :
-import pikepdf
-pdf = pikepdf.open('my.pdf',password='pass')
-pdf.save('new.pdf')
+To remove password from pdf :<br>
+import pikepdf<br>
+pdf = pikepdf.open('my.pdf',password='pass')<br>
+pdf.save('new.pdf')<br>
